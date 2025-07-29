@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className} suppressHydrationWarning={true}>
         <ScrollAnimations />
         <Header />
-        <main className="px-2 pt-16 lg:pt-20">{children}</main>
+        <main className="pt-16 lg:pt-20">{children}</main>
         <Footer />
       </body>
     </html>
